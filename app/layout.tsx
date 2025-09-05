@@ -3,7 +3,7 @@ import React from "react";
 import "./globals.css";
 
 export const metadata = {
-  title: "Pomodoro — Focus Timer",
+  title: "FocusFlow — Focus Timer",
   description: "A clean Pomodoro timer built with Next.js + Tailwind",
   icons: {
     icon: "/favicon.ico", 
