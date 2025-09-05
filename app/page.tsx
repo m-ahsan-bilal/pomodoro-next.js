@@ -150,12 +150,6 @@ export default function Home() {
     return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
   };
 
-  const formatTotalTime = (seconds: number) => {
-    const hours = Math.floor(seconds / 3600);
-    const mins = Math.floor((seconds % 3600) / 60);
-    if (hours > 0) return `${hours}h ${mins}m`;
-    return `${mins}m`;
-  };
 
   const openSettings = () => {
     setTempSettings({ ...settings });
@@ -239,14 +233,7 @@ export default function Home() {
                   Sessions
                 </div>
               </div>
-              <div className="group cursor-pointer">
-                <div className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-indigo-400 text-transparent bg-clip-text mb-1 group-hover:scale-110 transition-transform duration-300">
-                  {formatTotalTime(totalFocusTime)}
-                </div>
-                <div className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
-                  Focus Time
-                </div>
-              </div>
+            
             </div>
 
             <div className="flex gap-4">
