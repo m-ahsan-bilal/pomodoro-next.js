@@ -206,7 +206,7 @@ export default function Home() {
             animationDelay: `${i * 0.7}s`,
             animationDuration: `${3 + i * 0.3}s`,
           }}
-        ></div>
+        ></div>   
       ))}
 
       {/* Header */}
