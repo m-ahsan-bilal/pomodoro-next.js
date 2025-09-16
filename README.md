@@ -1,7 +1,6 @@
 # ⏱️ Pomodoro Timer  
 
-![Pomodoro Banner](./public/banner.png)  
-<!-- Tip: Create a banner image (1200x400px recommended) and save it in /public/banner.png -->
+
 
 A beautiful and minimal **Pomodoro Timer** built with **Next.js 15, TypeScript, and TailwindCSS**.  
 Deployed live on **Vercel** → [ahsan-pomodora.vercel.app](https://ahsan-pomodora.vercel.app/)  
@@ -31,12 +30,6 @@ Deployed live on **Vercel** → [ahsan-pomodora.vercel.app](https://ahsan-pomodo
 
 ---
 
-## 📸 Screenshots  
-
-(Add screenshots here if you want, e.g. `/public/screenshot.png`)  
-
----
-
 ## 🛠️ Getting Started  
 
 First, clone the repo:  
@@ -44,3 +37,6 @@ First, clone the repo:
 ```bash
 git clone https://github.com/YOUR-USERNAME/pomodora.git
 cd pomodora
+
+
+<p align="center"> Made with ❤️ using <a href="https://nextjs.org/" target="_blank"><b>Next.js</b></a> </p> ```
