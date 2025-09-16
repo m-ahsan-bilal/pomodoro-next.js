@@ -30,13 +30,5 @@ Deployed live on **Vercel** → [ahsan-pomodora.vercel.app](https://ahsan-pomodo
 
 ---
 
-## 🛠️ Getting Started  
-
-First, clone the repo:  
-
-```bash
-git clone https://github.com/YOUR-USERNAME/pomodora.git
-cd pomodora
-
 
 <p align="center"> Made with ❤️ using <a href="https://nextjs.org/" target="_blank"><b>Next.js</b></a> </p> ```
